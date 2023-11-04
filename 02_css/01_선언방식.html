@@ -1,4 +1,14 @@
 <!-- https://codepen.io/fsweb29/pen/OJrGjbL?editors=1000 -->
+<!-- html 내용기술 
+
+    html 형식
+    <태그 속성 = "값">내용</태그>
+<태그 속성 = "값" 속성="값" 띄어쓰기로 구분
+
+    css 형식
+    선택자 {속성: 값; 속성: 값; }
+
+ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,18 +17,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML+CSS</title>
     <!-- External Style -->
-
+<link rel="stylesheet" href="style.css">
     <!-- Internal Style -->
+    <style>
+        /*<li style="color:rgb(1, 217, 255);">external(인라인) Style</li>
+        /*<li style="color:rgb(1, 217, 255);">external(인라인) Style</li>
+        /*<li style="color:rgb(1, 217, 255);">external(인라인) Style</li>
+        /*<li style="color:rgb(1, 217, 255);">external(인라인) Style</li>
+        p {color:red;}
+        
+         p {
+
+        /* 
+        p {
+
+        }  
+        color 
+          font-weight
+          font-style
+          background-color:yellow;
+          text-decoration:underline;
+
+
     
+
+        /* 
+    
+        */
+        p {
+            color:red
+            background-color: yellow;
+            background-color: blue;
+            text-dexoration: underline;
+
+
+        }
+ */
+    </style>
 </head>
 <body>
     <h1>CSS 선언 방식</h1>
     <!-- inline Style -->
     <p>인라인 CSS이란 HTML의 스타일 속성의 값으로 CSS의 속성과 값을 기록한다.</p>
     <ul>
-        <li>inline Style</li>
-        <li>Internal Style</li>
-        <li>External Style</li>
+        <li style="color:red;">inline(인라인) Style</li>
+        <li style="color:#48ebf7;">Internal(인라인) Style</li>
+        <li style="color:rgb(1, 217, 255);">external(인라인) Style</li>
+
+        
+        <li>Internal(내부) Style</li>
+        <li>External(외부) Style</li>
     </ul>
 </body>
 </html>
